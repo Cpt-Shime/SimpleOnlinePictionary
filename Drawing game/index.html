@@ -1,0 +1,31 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Guess What?</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<h1 > Guess what? </h1>
+
+<div id="DrawAndChat">
+  <p class="alignleft"> Draw here <img src="Images/Strijela.png" width="50" style="vertical-align:top"></p>
+  <p class="alignright"><img src="Images/Strijela-left.png" width="50" style="vertical-align:top"> Guess here</p>
+</div>
+
+<canvas id="canv1" width=600 height="400" float=left>
+    Your browser needs to support canvas for this to work!
+</canvas>
+
+<div id="chatandbuttons">
+
+<div id="chat1"> </div>
+<input id="name" type="text" placeholder="name" />
+<input id="message" type="text" placeholder="message" />
+<button id="send">Send</button>
+</div>
+<script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+<script src="client.js"></script>
+
+</body>
+</html>
